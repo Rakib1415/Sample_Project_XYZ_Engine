@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.billing-box-border {
+    border: 1px solid rgba(196, 196, 196, 0.5);
+    border-radius: 3px;
+}
+.ant-checkbox .ant-checkbox-inner {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid #6900b8;
+    border-radius: 3px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #6900b8;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:hover {
+    background-color: #6900b8;
+}
+
+.ant-checkbox .ant-checkbox-input:hover {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1.5px solid #ff0047;
+    border-radius: 3px;
+    outline: unset;
+}
+
+.billing .ant-table-thead > tr > th {
+    background: white !important;
+    color: #6900b8 !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 25px !important    ;
+}
+
+.dashboard-billing .ant-table-thead > tr > th {
+    background: white !important;
+    color: #6900b8 !important;
+    font-size: medium;
+}
+.performance-card {
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    border-radius: 3px;
+}

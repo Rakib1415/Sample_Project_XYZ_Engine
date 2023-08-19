@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  codingtest:
+    image: codingtest
+    container_name: sample-project
+    ports: 
+      - "3000:3000"
+    networks:
+      - mynet  
+    volumes: 
+      - sampleproject_data:/usr/share/sampleproject/data
+networks:
+  mynet:
+    driver: bridge      
+volumes:
+  sampleproject_data:
